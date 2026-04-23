@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@media print {
+  /* Ocultar buscador, botones y mensajes de carga */
+  button, input, .bg-gray-100, h1 {
+    display: none !important;
+  }
+
+  /* Ajustar la tabla para que ocupe toda la hoja */
+  .max-w-4xl {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  table {
+    box-shadow: none !important;
+    border: 1px solid #000 !important;
+  }
+
+  th, td {
+    border: 1px solid #ddd !important;
+  }
+
+  /* Evitar que los links de "Ver PDF" salgan en la impresión */
+  a {
+    display: none !important;
+  }
+}
