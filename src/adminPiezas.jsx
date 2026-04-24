@@ -244,6 +244,7 @@ const AdminPiezas = () => {
           </table>
         </div>
 
+
         <div className="p-6 bg-slate-50 border-t border-slate-100 flex justify-end">
           <button 
             onClick={guardarPiezaCompleta}
